@@ -1,0 +1,39 @@
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-wrapper button{
+    background-color: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.ig-studio {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo-text {
+    padding-left: 11px;
+    color: var(--white);
+    font-weight: 600;
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 0.2;
+}
+
+.navbar-menu button {
+    border: none;
+}
+
+.contact-now {
+    border: 2px solid #FFFFFF;
+    padding: 14px 35px 14px 35px;
+}

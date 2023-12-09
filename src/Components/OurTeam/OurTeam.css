@@ -1,0 +1,55 @@
+.team-list-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 186px 150px 0px 150px;
+    min-height: 425px;
+}
+
+.team-list-header{
+    color: var(--white);
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.team-list-card-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items:center;
+    flex-grow: 0.3;
+}
+
+.team-list-card {
+    width: 209px;
+    padding: 20px 100px 20px 20px;  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 14px;
+}
+
+.team-list-card:hover {
+    background: #E3B748;
+    .team-list-card-name {
+        color: #373737;
+    }
+    .team-list-card-cases {
+        color:#000000;
+    }
+}
+
+
+.team-list-card-name {
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.team-list-card-cases {
+    color:#FFFFFF;
+    opacity: 30%;
+    font-weight: 400;
+    font-size: 14px;
+}

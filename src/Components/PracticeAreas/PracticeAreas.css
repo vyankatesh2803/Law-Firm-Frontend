@@ -1,0 +1,33 @@
+.practice-area-wrapper {
+    margin: 179px 150px 0px 150px;
+}
+
+.practice-area-header {
+    display: flex;
+    justify-content: center;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 54px;
+    margin: 0px 0px 65px 0px;
+}
+
+.practice-area-image{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.practice-area-image p {
+    position: absolute;
+    color: var(--white);
+    top: 80%;
+    left: 50%;
+    translate: -50%;
+    font-weight: 600;
+    font-size: 24px;
+    width: max-content;
+}
+
+.temp-flex {
+    display: flex;
+    justify-content: space-evenly;
+}

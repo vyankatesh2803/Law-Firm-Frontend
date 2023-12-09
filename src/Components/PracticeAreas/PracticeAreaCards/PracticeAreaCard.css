@@ -1,0 +1,21 @@
+.practice-area-image{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.practice-area-image p {
+    position: absolute;
+    color: var(--white);
+    top: 80%;
+    left: 50%;
+    translate: -50%;
+    font-weight: 600;
+    font-size: 24px;
+    width: max-content;
+}
+
+.temp-flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

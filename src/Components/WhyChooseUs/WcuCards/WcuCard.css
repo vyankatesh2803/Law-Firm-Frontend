@@ -1,0 +1,35 @@
+.card-wrapper {
+    height: fit-content;
+    width: 301px;
+    border-radius: 14px;
+    border: 1.4px solid #FFFFFF1A;
+    padding: 28px;
+}
+
+.card-wrapper:hover {
+    background: linear-gradient(0deg, #1D1D1D, #1D1D1D),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+}
+
+.success-rate {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 24px;
+    padding: 28px 0px 26px 0px;
+}
+
+.card-text {
+    font-size: 14px;
+    padding: 0px 0px 22px 0px;
+}
+
+.card-wrapper button {
+    background-color: var(--yellow);
+    border-radius: 23.5px;
+    height: 43px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    width: 121px;
+    cursor: pointer;
+}

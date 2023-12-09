@@ -1,0 +1,28 @@
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 150px 0px 150px;
+    height: 206px;
+}
+
+.intro-line-one {
+    color: white;
+    font-size: 54px;
+    width: 40%;
+    font-weight: 600;
+    padding: 15px 0px 15px 0px;
+}
+
+.intro-line-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+    padding: 15px 0px 15px 87px;
+    border-left: 1px solid #6A6A6A;
+}
+
+.criminal-lawyer {
+    color: white;
+    font-size: 32px;
+}

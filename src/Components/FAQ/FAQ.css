@@ -1,0 +1,36 @@
+.faq-wrapper {
+    padding: 125px 150px 0px 150px;
+}
+
+.faq-wrapper h1 {
+    font-weight: 600;
+    font-size: 54px;
+    color: var(--white);
+    padding-bottom:  14px; ;
+}
+
+.faq-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-text {
+    color: var(--white);
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 30%;
+}
+
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+    background-color: var(--black) !important;
+    color: var(--white) !important;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+}
+
+.css-pwcg7p-MuiCollapse-root {
+    color: #ffffff;
+    opacity: 30%;
+    font-weight: 500;
+    font-size: 18px;
+}

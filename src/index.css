@@ -1,13 +1,18 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --black: #111111;
+  --white: #FFFFFF;
+  --yellow: #E3B748;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.lorem-ipsum {
+  color: var(--white);
+  opacity: 30%;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29.25px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--black);
 }

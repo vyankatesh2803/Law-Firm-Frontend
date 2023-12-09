@@ -1,0 +1,21 @@
+.wcu-wrapper{
+    height: 551px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 80px 150px 0px 150px;
+}
+
+.wcu-heading {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: 54px;
+}
+
+.wcu-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
